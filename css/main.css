@@ -43,24 +43,14 @@ a:visited {
   padding: 1em;
   border-radius: 1rem;
 }
-.img-flex {
-  display: block;
-  width: 100%;
-}
+
 .masthead1 {
   background-image: url("http://placehold.it/350x200");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
-.contactbtns {
-  display: inline-block;
-  float: left;
-  margin-bottom: 3em;
-  border: 0;
-  text-align: center;
-  color: #fff;
-  padding: 0.7em;
-  float: left;
-  width: 33.3333%;
+
+@media only screen and (min-width: 38em) {
+  
 }
