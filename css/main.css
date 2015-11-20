@@ -46,9 +46,18 @@ a:visited {
   padding: 1em;
   border-radius: 1rem;
 }
+.contactbtns {
+  width: 50px;
+  display: inline-block;
+  float: left;
+  padding: 2em;
+  margin-bottom: 1em;
+  border: 0;
+  text-align: center;
+}
 
 .masthead1 {
-  background-image: url("http://placehold.it/350x200");
+  background-image: url("http://placehold.it/650x500");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
