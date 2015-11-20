@@ -32,6 +32,9 @@ a:visited {
   color: #32bfc9;
   text-decoration: none;
 }
+.nav a {
+  display: block;
+}
 .nav a:hover,
 .nav a:focus,
 .nav a:active, {
@@ -52,6 +55,24 @@ a:visited {
 }
 .prefoot{
   background-color: #ffc10e;
+}
+.section-mid{
+  background-color: #32bfc9;
+}
+.section-dark{
+  background-color: #71c6a8;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
 }
 @media only screen and (min-width: 38em) {
 
