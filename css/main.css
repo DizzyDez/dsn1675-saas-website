@@ -11,10 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  background-color: #fff;
-
-  font-family: sans-serif;
+font-family: 'Oxygen', sans-serif;
 }
 
 *, *:before, *:after {
@@ -54,7 +51,12 @@ ul li:not(.disabled):hover{
   text-align: center;
 
 }
-
+.fill-bg {
+  background-image: url("http://placehold.it/650x500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 .masthead1 {
   background-image: url("http://placehold.it/650x500");
   background-repeat: no-repeat;
