@@ -18,7 +18,9 @@ font-family: 'Oxygen', sans-serif;
   box-sizing: inherit;
 }
 
-
+a:focus {
+  outline: 3px solid #32bfc9;
+}
 body {
   margin: 0;
   padding: 0;
