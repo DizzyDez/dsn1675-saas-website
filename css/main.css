@@ -53,17 +53,28 @@ ul li:not(.disabled):hover{
   text-align: center;
 
 }
+.blue {
+  color: #32bfc9;
+}
+
 .fill-bg {
-  background-image: url("http://placehold.it/650x500");
+  background-image: url("../img/business-people.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.masthead1 {
-  background-image: url("http://placehold.it/650x500");
+.banner1 {
+  background: url("../img/homebanner.jpg") center center / cover no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+.banner2 {
+  background-image: url("../img/mixing-desk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
 }
 .prefoot{
   background-color: #ffc10e;
