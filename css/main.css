@@ -17,6 +17,32 @@ font-family: 'Oxygen', sans-serif;
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.navi {
+  display: none;
+
+}
+.nav-check:checked ~ .nav {
+	display: block;
+}
+.nav-check {
+	position: absolute;
+	top: -3em;
+}
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.nav-label img{
+  width: 100%;
+  display: inline-block;
+  padding-left:
+
+}
 
 a:focus {
   outline: 3px solid #32bfc9;
@@ -76,6 +102,12 @@ ul li:not(.disabled):hover{
   text-align: center;
   color: #fff;
 }
+.banner3 {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
 .prefoot{
   background-color: #ffc10e;
 }
@@ -88,15 +120,18 @@ ul li:not(.disabled):hover{
 
 @media only screen and (min-width: 25em) {
 
-  .nav {
-    text-align: center;
-  }
-
-  .nav li {
-    display: inline-block;
-  }
-
+.navi {
+  display: inline-block;
 }
-@media only screen and (min-width: 38em) {
+.nav-label {
+  display: none;
+}
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
 
 }
