@@ -32,12 +32,57 @@
     </header>
     <main>
 
+      <form action="//formspree.io/desc0137@algonquinlive.com" method="post" class="island-2">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+        <div>
+          <label for="first-name">First Name</label>
+          <input id="first-name" required name="firstname">
+        </div>
+        <div>
+          <label for="last-name">Last Name</label>
+          <input id="last-name" required name="lastname">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" required placeholder="example@hotmail.com">
+        </div>
+        <div>
+          <label for="plans">Price Plan</label>
+          <select id="plans" name="plans">
+            <option></option>
+            <option>free</option>
+            <option>PRO</option>
+            <option>BASIC</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Choose credit card</legend>
+
+          <input id="amex" type="radio" name="payment">
+          <label for="amex">Amex</label>
+
+          <input id="visa" type="radio" name="payment">
+          <label for="visa">Visa</label>
+
+          <input id="mastercard" type="radio" name="payment">
+          <label for="mastercard">Mastercard</label>
+
+          <input id="visadebit" type="radio" name="payment">
+          <label for="visadebit">VisaDebit</label>
+        </fieldset>
 
 
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
 
 
-      
-      <a class="btn" href="thankyou.html">submit to start eMotion</a>
     </main>
   </body>
   <footer>
