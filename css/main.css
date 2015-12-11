@@ -83,7 +83,9 @@ ul li :not(.disabled):hover{
 .white {
   color: #fff;
 }
-
+.width {
+  width: 4em;
+}
 .fill-bg {
   background-image: url("../img/business-people.jpg");
   background-repeat: no-repeat;
