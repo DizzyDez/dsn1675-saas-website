@@ -95,14 +95,10 @@ ul li :not(.disabled):hover{
 }
 .banner1 {
   background: url("../img/homebanner.jpg") center center / cover no-repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
 }
 .banner2 {
-  background-image: url("../img/mixing-desk.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/mixing-desk.jpg") center center / cover no-repeat;
   text-align: center;
   color: #fff;
 }
